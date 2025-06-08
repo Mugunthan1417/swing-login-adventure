@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Window, Plus, Code } from 'lucide-react';
+import { Monitor, Plus, Code } from 'lucide-react';
 
 const JFrameCreationContent = () => {
   return (
@@ -18,7 +17,7 @@ const JFrameCreationContent = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-4">
               <h3 className="text-lg font-semibold flex items-center gap-2">
-                <Window className="h-5 w-5 text-blue-600" />
+                <Monitor className="h-5 w-5 text-blue-600" />
                 Adding JFrame Form
               </h3>
               
@@ -70,7 +69,7 @@ const JFrameCreationContent = () => {
               <CardContent>
                 <div className="bg-white border-2 border-dashed border-gray-300 p-8 rounded text-center">
                   <div className="text-gray-400 mb-4">
-                    <Window className="h-12 w-12 mx-auto" />
+                    <Monitor className="h-12 w-12 mx-auto" />
                   </div>
                   <p className="text-gray-600 text-sm">Empty JFrame Canvas</p>
                   <p className="text-xs text-gray-500 mt-2">

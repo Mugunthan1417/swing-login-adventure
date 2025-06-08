@@ -1,10 +1,16 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ChevronRight, ChevronLeft, Play, Code, Eye, CheckCircle } from 'lucide-react';
+import ProjectSetupContent from './tutorial-steps/ProjectSetupContent';
+import JFrameCreationContent from './tutorial-steps/JFrameCreationContent';
+import UIComponentsContent from './tutorial-steps/UIComponentsContent';
+import LayoutSetupContent from './tutorial-steps/LayoutSetupContent';
+import ComponentConfigContent from './tutorial-steps/ComponentConfigContent';
+import WindowPositioningContent from './tutorial-steps/WindowPositioningContent';
+import TestingContent from './tutorial-steps/TestingContent';
 
 const JavaSwingTutorial = () => {
   const [currentStep, setCurrentStep] = useState(0);
